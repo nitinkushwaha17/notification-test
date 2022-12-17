@@ -25,7 +25,7 @@ async function send() {
 
   // Send Push Notification
   console.log("Sending Push...");
-  await fetch("/subscribe", {
+  await fetch("http://127.0.0.1:5000/subscribe", {
     method: "POST",
     body: JSON.stringify(subscription),
     headers: {
