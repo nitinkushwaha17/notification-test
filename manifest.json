@@ -30,7 +30,6 @@
     "id": "/",
     "start_url": ".",
     "background_color": "#000000",
-    "display": "standalone",
-    "scope": "/",
+    "display": "fullscreen",
     "theme_color": "#000000"
 }
