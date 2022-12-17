@@ -28,7 +28,7 @@
         }
     ],
     "id": "/",
-    "start_url": ".",
+    "start_url": "/",
     "background_color": "#000000",
     "display": "fullscreen",
     "theme_color": "#000000"
