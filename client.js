@@ -25,7 +25,7 @@ async function send() {
 
   // Send Push Notification
   console.log("Sending Push...");
-  await fetch("notification-server-production.up.railway.app/subscribe", {
+  await fetch("https://notification-server-production.up.railway.app/subscribe", {
     method: "POST",
     body: JSON.stringify(subscription),
     headers: {
